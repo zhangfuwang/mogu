@@ -28,13 +28,49 @@ body{
 	float: left;
 	margin-left: 34px;
 }
-.topnav .nav a{
+.topnav .nav .a{
 	float: left;
 	color: #fff;
 	font-size: 18px;
 	line-height: 73px;
-	padding: 0 15px;
-	margin: 0 15px;
+	padding: 0 30px;
+}
+.topnav .nav .item{
+	position: relative;
+	float: left;
+}
+.topnav .nav .item .a:hover{
+
+	background-color: #dc685a;
+}
+
+.topnav .nav .item .inr{
+	display: none;
+	position: absolute;
+	top: 73px;
+	left: 0;
+	background-color: #fff;
+	width: 328px;
+	padding: 16px 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.12);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
+.topnav .nav .item:hover .inr{
+	display: block;
+}
+.topnav .nav .item .inr a{
+	float: left;
+	color: #9a9a9a;
+	line-height: 40px;
+	margin: 0 22px;
+	width: 60px;
+}
+.topnav .nav .item .inr a:hover{
+	color: #333;
+}
+.topnav .nav .item .inr a:nth-child(3n+1){
+	margin: 0 0 0 19px;
 }
 .topnav .nav .more{
 	float: left;
