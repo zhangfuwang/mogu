@@ -34,11 +34,14 @@ $(document).ready(function(){
 	        resizeable: true
 	     });
 	})
+
+})
+$(function(){
 	$(".masonry_box .cnt .item>ul").masonry({
-        itemSelector: 'li',
-        gutter: 0,
-        isAnimated: true,
-        singleMode:true,
-        resizeable: true
-    });
+		itemSelector: 'li',
+		gutter: 0,
+		isAnimated: true,
+		singleMode:true,
+		resizeable: true
+	});
 })
