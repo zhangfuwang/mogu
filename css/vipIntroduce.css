@@ -1,0 +1,114 @@
+section{
+    background: url("../images/vip-banner_02.jpg") no-repeat center;
+    background-size: cover;
+    height: 1404px;
+}
+#vipMain{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 393px;
+    height: 900px;
+    background-color: #fff;
+}
+#vipMain ul.one{
+    width: 986px;
+    margin: 50px auto;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#vipMain ul.one li:nth-child(2){
+    flex-grow: 1;
+}
+#vipMain ul.one li div{
+    width: 51px;
+    height: 53px;
+    margin: 0 auto;
+}
+#vipMain ul.one li h3{
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+}
+#vipMain ul.one li p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e8e8e;
+}
+
+#vipMain h2{
+    font-size: 18px;
+    line-height: 40px;
+    color: #0e0e0e;
+    margin: 40px auto;
+    text-align: center;
+}
+#vipMain ul.two{
+    width: 852px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#vipMain ul.two li{
+    width: 247px;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+}
+
+#vipMain ul.two li p:nth-child(1){
+    font-size: 16px;
+    line-height: 40px;
+    color: #9f9f9f;
+    width:  100px;
+    margin: 10px auto;
+    text-align: left;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+}
+.crown-icon1{
+    background-image: url("../images/crown1.png") ;
+}
+.crown-icon2{
+    background-image: url("../images/crown2.png") ;
+}
+.crown-icon3{
+    background-image: url("../images/crown3.png");
+}
+#vipMain ul.two li div{
+    width: 247px;
+    height: 78px;
+    background-image: linear-gradient(to left ,#d84b46 ,#ec7e6f );
+
+}
+#vipMain ul.two li div i{
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+}
+#vipMain ul.two li div span{
+    font-size: 38px;
+    color: #fff;
+    line-height: 78px;
+}
+#vipMain ul.two li div u{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+#vipMain ul.two li p:nth-child(3){
+    font-size: 14px;
+    color: #7f7f7f;
+    margin: 20px 0;
+}
+#vipMain ul.two li a{
+    display: block;
+    background-color: #dd5952;
+    color: #fff;
+    width: 140px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+

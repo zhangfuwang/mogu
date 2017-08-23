@@ -1,0 +1,164 @@
+section{
+    height: auto;
+    padding: 40px 0;
+}
+#pay{
+    margin: 50px auto;
+
+}
+#pay>p{
+    font-size: 14px;
+    line-height: 27px;
+    margin: 10px 0;
+
+}
+#pay>p u{
+    text-decoration: none;
+    color: #a8a8a8;
+    display: block;
+    float: left;
+}
+#pay>p b{
+    font-weight: normal;
+    display: block;
+    float: left;
+    width: 27px;
+    height: 27px;
+    background: url("../images/Layer.png") no-repeat center;
+    margin: 0 8px;
+}
+#pay>p span{
+    color: #dd5952;
+    margin-left: 10px;
+}
+#pay>p i{
+    font-style: normal;
+    display: block;
+    float: left;
+    color: #000;
+}
+#pay>div{
+    background-color: #fff;
+}
+#pay>div h3{
+    font-size: 18px;
+    line-height: 40px;
+    color: #0e0e0e;
+    text-align: center;
+    margin: 70px 0;
+}
+#pay>div h3 span{
+    display: inline-block;
+    font-size: 24px;
+    color: #dd5952;
+    width: 80px;
+}
+#pay>div h3 i{
+    font-style: normal;
+}
+#pay>div ul{
+    width: 852px;
+    margin: 0 auto;
+}
+#pay>div ul li{
+    float: left;
+    width: 247px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#pay>div ul li.active{
+    border-color: #dd5952;
+    background: url("../images/true.png") no-repeat -1px -1px ;
+}
+#pay>div ul li:nth-child(2){
+    margin: 0 55px;
+}
+
+/*#pay>div ul li p{*/
+    /*margin: 40px 0;*/
+/*}*/
+#pay>div ul li p:nth-child(1){
+    font-size: 16px;
+    line-height: 40px;
+    color: #9f9f9f;
+    width:  100px;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+}
+.crown-icon1{
+    background-image: url("../images/crown1.png") ;
+}
+.crown-icon2{
+    background-image: url("../images/crown2.png") ;
+}
+.crown-icon3{
+    background-image: url("../images/crown3.png");
+}
+
+#pay>div ul li p:nth-child(2){
+    color: #dd5952;
+    font-size: 14px;
+    line-height: 130px;
+}
+#pay>div ul li p:nth-child(2) span{
+    font-size: 38px;
+    color: #dd5952;
+}
+#pay>div ul li p:nth-child(2) i{
+    font-style: normal;
+    font-size: 18px;
+    color: #dd5952;
+}
+#pay>div ul li p:nth-child(3){
+    font-size: 14px;
+    line-height: 40px;
+    color: #7f7f7f;
+}
+#pay>div>div{
+    width: 986px;
+    margin: 0 auto;
+}
+#pay>div>div>p{
+    color: #a8a8a8;
+    font-size: 14px;
+    line-height: 40px;
+    border-bottom: 1px solid #ededed;
+}
+#pay>div>div>div{
+    width: 160px;
+    float: left;
+    margin: 50px ;
+    margin-left: 200px;
+}
+#pay>div>div>div span{
+    display: block;
+    font-size: 14px;
+    color: #888;
+    line-height: 24px;
+    margin: 20px 0 10px;
+}
+#pay>div>div>div span b{
+    display: block;
+    float: left;
+    font-weight: normal;
+    width: 24px;
+    height: 24px;
+    background: url("../images/weixin_03.jpg") no-repeat center;
+    position: relative;
+    left: 10px;
+
+}
+#pay>div>div>div a{
+    color:#00a1e8;
+    text-decoration: underline;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+

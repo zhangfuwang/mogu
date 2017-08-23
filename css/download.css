@@ -1,0 +1,90 @@
+section{
+    background-color: #f7f8fa;
+    width: 100%;
+    height: 800px;
+}
+section>div{
+    max-width: 1200px;
+}
+#downloadContent{
+    height: 420px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 80px 0;
+
+}
+#downloadContent>div:first-child{
+    margin-left: 87px;
+    width: 270px;
+    float: left;
+}
+
+#downloadContent>div:first-child p{
+    margin-top: 20px;
+}
+#downloadContent>div:first-child p span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #aaa;
+    width: 112px;
+}
+#downloadContent>div:last-child{
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+#downloadContent>div:last-child h3{
+    font-size: 18px;
+    line-height: 40px;
+    color: #0e0e0e;
+}
+#downloadContent>div:last-child ul li{
+    float: left;
+    color: #7b7b7b;
+    margin-right: 20px;
+}
+#downloadContent>div:last-child ul li span{
+    color: #000;
+}
+#downloadContent>div:last-child button{
+    width: 233px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+    padding: 5px 0;
+    padding-left: 85px;
+    background: url("../images/rockets.png") no-repeat 50px 10px;
+    background-color: #dd5952;
+    text-align: left;
+
+}
+.vipBanner{
+    margin: 0 auto;
+    position: relative;
+}
+.vipBanner a{
+    display: block;
+    position: absolute;
+    right: 161px;
+    bottom: 39px;
+    width: 177px;
+    background: url("../images/vip.png") no-repeat 38px 13px;
+    background-color: #ffff00;
+    box-shadow: 0 0 0 5px rgba(0,0,0,.18);
+    border-radius: 5px;
+
+    color: #dd5952;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 68px;
+    text-align: left;
+
+}

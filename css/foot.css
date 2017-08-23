@@ -1,0 +1,90 @@
+.foot_box{
+	background-color: #434343;
+}
+.foot .up{
+	float: left;
+	width: 100%;
+	padding: 48px 0 45px;
+	border-bottom: 1px solid #4a4a4a;
+}
+.foot .up ul{
+	float: left;
+	padding: 0 46px;
+}
+.foot .up ul li{
+	float: left;
+	margin-right: 50px;
+}
+.foot .up ul li .img{
+	float: left;
+	width: 58px;
+	height: 58px;
+	text-align: center;
+	line-height: 58px;
+}
+.foot .up ul li .img img{
+	margin: auto;
+}
+.foot .up ul li .txt{
+	float: left;
+	width: 140px;
+}
+.foot .up ul li .txt h3{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 6px 0;
+}
+.foot .up ul li .txt p{
+	float: left;
+	width: 100%;
+	color: #cdcdcd;
+	line-height: 14px;
+	margin-top: 10px;
+}
+.foot .up .link{
+	float: right;
+	width: 220px;
+}
+.foot .up .link a{
+	float: left;
+	margin: 0 20px;
+	color: #fff;
+	line-height: 28px;
+	font-size: 16px;
+}
+.foot .down{
+	float: left;
+	width: 100%;
+	padding: 26px 0;
+}
+.foot .down .left{
+	float: left;
+	padding: 0 55px;
+}
+.foot .down .left p{
+	color: #868686;
+	line-height: 22px;
+}
+.foot .down .right{
+	float: right;
+	padding: 9px 22px;
+}
+.foot .down .right a{
+	float: left;
+	margin: 0 16px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icon_index.png) no-repeat;
+}
+.foot .down .right a:nth-child(1){
+	background-position: -119px -118px;
+}
+.foot .down .right a:nth-child(2){
+	background-position: -180px -117px;
+}
+.foot .down .right a:nth-child(3){
+	background-position: -240px -118px;
+}

@@ -1,0 +1,22 @@
+/*弹窗*/
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 12px 12px rgba(0,0,0,.2);
+    background-color:#fff ;
+}
+.popup>span{
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    font-size: 20px;
+    color: #ccc;
+
+}
+/*收藏*/
+.collection{
+    width: 564px;
+    height: 390px;
+}

@@ -1,0 +1,126 @@
+.banner{
+	position: relative;
+}
+.swiper-container {
+	position: relative;
+	width: 1600px;
+	margin: 8px auto;
+	padding: 20px 0;
+	height: 555px;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	background-position: center;
+	width: 1290px;
+	border-radius: 6px;
+}
+.swiper-slide-active{
+	box-shadow: 0 0 27px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 27px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 0 27px rgba(0,0,0,0.3);
+}
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 515px;
+	border-radius: 6px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	position: absolute;
+	top: 58px;
+	width: 156px;
+	height: auto;
+	bottom: 36px;
+	background: #000;
+	opacity: 0.3;
+	filter: Alpha(opacity=30);
+	overflow-x: hidden;
+}
+.swiper-button-next {
+	right: 0;
+}
+.swiper-button-prev {
+	left: 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction{
+	bottom: 30px;
+}
+.swiper-pagination-bullet{
+	width: 68px;
+	height: 6px;
+	border-radius: 0;
+	background-color: #fff;
+	opacity: 0.4;
+	filter: Alpha(opacity=40);
+}
+.swiper-pagination-bullet-active{
+	background-color: #fff;
+	opacity: 1;
+	filter: Alpha(opacity=100);
+}
+.swiper-container form{
+	position: absolute;
+	left: 50%;
+	top: 224px;
+	width: 595px;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	z-index: 10;
+	display: block;
+	border:0;
+	background-color: rgba(0,0,0,0.3);
+}
+.swiper-container form .type ul{
+	position: absolute;
+	top: 44px;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+	display: none;
+}
+.swiper-container form input[type="text"]{
+	width: 400px;
+}
+.advertise{
+	padding: 85px 5px;
+}
+.advertise a{
+	float: left;
+	margin: 0 15px;
+	width: 330px;
+	height: 142px;
+	border:1px solid #e3e3e3;
+	border-radius: 10px;
+	box-shadow: 0 0 35px rgba(4,0,0,0.1);
+	-moz-box-shadow: 0 0 35px rgba(4,0,0,0.1);
+	-webkit-box-shadow: 0 0 35px rgba(4,0,0,0.1);
+}
+.advertise a img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 18px 0;
+}
+.advertise a div{
+	float: left;
+	width: 228px;
+	padding-top:30px;
+}
+.advertise a div h3{
+	font-size: 20px;
+	line-height: 30px;
+}
+.advertise a div p{
+	font-size: 16px;
+	color: #868686;
+	line-height: 26px;
+}
