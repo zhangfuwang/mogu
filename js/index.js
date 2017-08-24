@@ -57,13 +57,3 @@ $(".masonry_box .cnt .item ul li .btm .span2 i").each(function(){
 		}
 	})
 })
-$(".swiper-container").hover(function(){
-	$(this).children(".swiper-button-next").show();
-	$(this).children(".swiper-button-prev").show();
-
-
-},function(){
-	$(this).children(".swiper-button-next").hide();
-	$(this).children(".swiper-button-prev").hide();
-
-})
