@@ -57,3 +57,15 @@ $(".masonry_box .cnt .item ul li .btm .span2 i").each(function(){
 		}
 	})
 })
+
+$(".masonry_box .cnt .item ul li .img .towindow3").each(function(){
+	$(this).click(function(){
+		if($(this).find("i").hasClass("active")){
+			$(this).html("<i></i>添加收藏");
+			$(this).closest("li").find(".btm .span2 i").removeClass();
+		}else{
+			$(this).html("<i class=\"active\"></i>取消收藏");
+			$(this).closest("li").find(".btm .span2 i").addClass("active");
+		}
+	})
+})

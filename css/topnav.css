@@ -39,7 +39,7 @@ body{
 	position: relative;
 	float: left;
 }
-.topnav .nav .item .a:hover{
+.topnav .nav .item:hover .a{
 
 	background-color: #dc685a;
 }
