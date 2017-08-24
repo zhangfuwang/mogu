@@ -111,6 +111,10 @@
 	height: 40px;
 	background: url(../images/icon_index.png) no-repeat;
 }
+.masonry_box .cnt .item ul li .img .p1 p a:first-child i.active{
+	/*background-position: 0 -118px;*/
+	background-position: -42px -48px;
+}
 .masonry_box .cnt .item ul li .img .p1 p a:first-child{
 	background-color: #fff;
 	color: #868686;
@@ -120,7 +124,8 @@
 	color: #fff;
 }
 .masonry_box .cnt .item ul li .img .p1 p a:first-child i{
-	background-position: -42px -48px;
+	/*background-position: -42px -48px;*/
+	background-position: 22px -107px;
 }
 .masonry_box .cnt .item ul li .img .p1 p a:last-child i{
 	background-position: -102px -48px;
@@ -160,7 +165,10 @@
 	background-position: -60px -120px;
 }
 .masonry_box .cnt .item ul li .btm span:nth-child(3) i{
-	background-position: 0 -118px;
+	  background-position: 0 -118px;
+}
+.masonry_box .cnt .item ul li .btm span:nth-child(3) i.active{
+	background-position: -60px -58px;
 }
 .masonry_box .cnt .item .lookmore{
 	float: left;

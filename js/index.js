@@ -46,3 +46,24 @@ $(document).ready(function(){
 	})
 
 })
+$(".masonry_box .cnt .item ul li .btm .span2 i").each(function(){
+	$(this).click(function(){
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+			$(this).closest("li").find(".img .p1 p a:first-child").html("<i></i>添加收藏");
+		}else{
+			$(this).addClass("active");
+			$(this).closest("li").find(".img .p1 p a:first-child").html("<i class=\"active\"></i>取消收藏");
+		}
+	})
+})
+$(".swiper-container").hover(function(){
+	$(this).children(".swiper-button-next").show();
+	$(this).children(".swiper-button-prev").show();
+
+
+},function(){
+	$(this).children(".swiper-button-next").hide();
+	$(this).children(".swiper-button-prev").hide();
+
+})
