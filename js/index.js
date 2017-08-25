@@ -83,7 +83,6 @@ $(".masonry_box .cnt .item ul li .img .p1 p a:first-child").each(function(){
 
 		}
 		if($(this).find("i").hasClass("active")){
-
 			$(this).addClass("towindow3").html("<i></i>添加收藏");
 			//$(this).html("<i></i>添加收藏");
 			$(this).closest("li").find(".btm .span2 i").removeClass("active");
@@ -98,4 +97,23 @@ $(".masonry_box .cnt .item ul li .img .p1 p a:first-child").each(function(){
 
 		if($(this).hasClass()){}
 	})
+})
+$(".content-right-list1 div:first-child span").click(function() {
+	if ($(this).hasClass("towindow3")) {
+
+		$(".windowfix_box .windowfix3").show().siblings().hide().parent().show().find(".shadow").show();
+
+		$(".windowfix_box .windowfix3").parent().find(".shadow").click(function () {
+			$(this).parent().hide()
+		})
+		$(".windowfix_box .windowfix3").find("i.del").click(function () {
+			$(this).closest(".windowfix_box").hide()
+		})
+		$(".windowfix_box .windowfix3").find("div.link a:first-child").click(function () {
+			$(this).closest(".windowfix_box").hide()
+		})
+		$(this).css({"background-color":"#dd5920"}).removeClass("towindow3");
+	} else {
+		$(this).css({"background-color":"#e7e7e7"}).addClass("towindow3");
+	}
 })
