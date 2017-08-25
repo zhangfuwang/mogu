@@ -109,3 +109,11 @@ textarea:focus{
 	text-align: center;
 	margin-left: 10px;
 }
+@media screen and (max-width: 1600px) {
+	.w1450{
+		width: 1200px;
+	}
+	.m1450{
+		min-width: 1200px;
+	}
+}

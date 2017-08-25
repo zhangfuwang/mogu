@@ -50,22 +50,25 @@ $(".masonry_box .cnt .item ul li .btm .span2 i").each(function(){
 	$(this).click(function(){
 		if($(this).hasClass("active")){
 			$(this).removeClass("active");
-			$(this).closest("li").find(".img .p1 p a:first-child").html("<i></i>添加收藏");
+			$(this).closest("li").find(".img .p1 p a:first-child").addClass("towindow3").html("<i></i>添加收藏");
 		}else{
 			$(this).addClass("active");
-			$(this).closest("li").find(".img .p1 p a:first-child").html("<i class=\"active\"></i>取消收藏");
+			$(this).closest("li").find(".img .p1 p a:first-child").removeClass("towindow3").html("<i class=\"active\"></i>取消收藏");
 		}
 	})
 })
 
-$(".masonry_box .cnt .item ul li .img .towindow3").each(function(){
-	$(this).click(function(){
-		if($(this).find("i").hasClass("active")){
-			$(this).html("<i></i>添加收藏");
-			$(this).closest("li").find(".btm .span2 i").removeClass();
-		}else{
-			$(this).html("<i class=\"active\"></i>取消收藏");
-			$(this).closest("li").find(".btm .span2 i").addClass("active");
-		}
-	})
+$(".masonry_box .cnt .item ul li .img .p1 p a:first-child").each(function(){
+	if($(this).hasClass("towindow3")){
+		$(this).click(function(){
+			if($(this).find("i").hasClass("active")){
+				$(this).addClass("towindow3").html("<i></i>添加收藏");
+				$(this).closest("li").find(".btm .span2 i").removeClass("active");
+			}else{
+				$(this).removeClass("towindow3").html("<i class=\"active\"></i>取消收藏");
+				$(this).closest("li").find(".btm .span2 i").addClass("active");
+			}
+		})
+	}
+
 })

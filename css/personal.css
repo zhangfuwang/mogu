@@ -168,3 +168,10 @@
     /*border-radius:20px ;*/
     /*padding: 10px;*/
 /*}*/
+@media screen and (max-width: 1600px) {
+    .personal-list ul{
+        width: 1200px;
+
+
+    }
+}

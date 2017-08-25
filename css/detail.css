@@ -18,9 +18,7 @@ section{
 
 
 /*主体内容*/
-.padd60{
-    padding: 0 60px;
-}
+
 .content .content-left{
 
     background-color: #fff;
@@ -278,7 +276,7 @@ section{
 /*}*/
 .masonry_box .cnt .item {
     display: block;
-    padding: 0 45px;
+    /*padding: 0 45px;*/
 }
 .masonry_box>h3{
     font-size: 16px;
@@ -286,4 +284,27 @@ section{
     color: #858585;
     padding: 0 60px;
     margin-top: 30px;
+}
+#recommend{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1600px) {
+    .content .content-left{
+        width: 854px;
+    }
+    .content-left img {
+        margin: 50px 43px;
+    }
+    .content-left div {
+        margin: 0 44px;
+    }
+    .content-left p {
+        margin-left: 65px;
+    }
+    .masonry_box>h3 {
+         padding: 0 10px;
+    }
+    .masonry_box .cnt .item {
+        padding: 0 ;
+    }
 }

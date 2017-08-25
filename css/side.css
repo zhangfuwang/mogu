@@ -1,7 +1,7 @@
 .sidefix{
 	position: fixed;
 	bottom: 10%;
-	right: 10%;
+	right: 0;
 	width: 51px;
 	z-index: 5000;
 }

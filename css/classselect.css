@@ -161,3 +161,11 @@
 .sort p a.default{
 	color: #a6a6a6;
 }
+@media screen and (max-width: 1600px) {
+	.select{
+		margin: 0;
+	}
+	.sort{
+		padding: 0;
+	}
+}

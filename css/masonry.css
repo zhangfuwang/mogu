@@ -25,7 +25,7 @@
 }
 .masonry_box .cnt .item{
 	display: none;
-	padding: 0 45px;
+	/*padding: 0 45px;*/
 }
 .masonry_box .cnt .item ul{
 	float: left;
@@ -33,7 +33,7 @@
 }
 .masonry_box .cnt .item ul li{
 	float: left;
-	width: 314px;
+	width: 336px;
 	margin: 13px;
 	border-radius: 5px;
 	background-color: #fff;
@@ -186,4 +186,33 @@
 	text-align: center;
 	border-radius: 21px;
 	font-size: 16px;
+}
+@media screen and (max-width: 1600px) {
+	.masonry_box .cnt .item ul li {
+
+		width: 278px;
+		margin: 10px;
+		border-radius: 5px;
+		background-color: #fff;
+		overflow: hidden;
+	}
+	.masonry_box .cnt .item {
+		display: none;
+		padding: 0 ;
+	}
+	.masonry_box .cnt .item ul li .img .p1 p a {
+		width: 110px;
+	}
+	.masonry_box .cnt .item ul li .img .p1 p a i {
+
+		width: 38px;
+
+	}
+	.masonry_box .cnt .item ul li .img .p1 p a:last-child i {
+		background-position: -109px -48px;
+	}
+	.masonry_box .cnt .item ul li .img .p1 p a:first-child i {
+
+		background-position: 15px -107px;
+	}
 }

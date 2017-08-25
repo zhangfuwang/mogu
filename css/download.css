@@ -4,7 +4,7 @@ section{
     height: 800px;
 }
 section>div{
-    max-width: 1200px;
+    width: 1200px;
 }
 #downloadContent{
     height: 420px;
@@ -67,6 +67,7 @@ section>div{
 
 }
 .vipBanner{
+
     margin: 0 auto;
     position: relative;
 }
