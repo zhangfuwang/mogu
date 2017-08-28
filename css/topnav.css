@@ -108,6 +108,9 @@ body{
 .topnav .nav .more ul li a{
 	color: #9a9a9a;
 }
+.topnav .nav .more ul li a:hover{
+	color: #333;
+}
 /*.topnav form{*/
 	/*margin-left: 45px;*/
 /*}*/
