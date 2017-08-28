@@ -201,6 +201,9 @@
 	    font-size: 18px;
 	    line-height: 28px;
 	}
+	.advertise>div div p{
+		color: #868686;
+	}
 	.advertise>div div p a{
 	    font-size: 14px;
 	    line-height: 24px;
