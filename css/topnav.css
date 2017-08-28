@@ -35,13 +35,16 @@ body{
 	line-height: 73px;
 	padding: 0 30px;
 }
+.topnav .nav .a span{
+	color: #fff;
+}
 .topnav .nav .item{
 	position: relative;
 	float: left;
 }
-.topnav .nav .item:hover .a{
+.topnav .nav .item .a:hover{
 
-	background-color: #dc685a;
+	background-color: rgba(0,0,0,.1);
 }
 
 .topnav .nav .item .inr{
@@ -50,7 +53,7 @@ body{
 	top: 73px;
 	left: 0;
 	background-color: #fff;
-	width: 328px;
+	width: 334px;
 	padding: 16px 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.12);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.12);
@@ -63,22 +66,51 @@ body{
 	float: left;
 	color: #9a9a9a;
 	line-height: 40px;
-	margin: 0 22px;
-	width: 60px;
+	/*margin: 0 22px;*/
+	width: 98px;
 }
 .topnav .nav .item .inr a:hover{
 	color: #333;
 }
-.topnav .nav .item .inr a:nth-child(3n+1){
-	margin: 0 0 0 19px;
-}
+/*.topnav .nav .item .inr a:nth-child(3n+1){*/
+	/*margin: 0 0 0 19px;*/
+/*}*/
 .topnav .nav .more{
 	float: left;
-	margin: 21px 60px 0 14px;
-	width: 30px;
-	height: 30px;
-	background: url(../images/icon_index.png) no-repeat 1px 12px;
+	/*margin: 21px 60px 0 14px;*/
+	padding: 0 30px;
+	width: 90px;
+	height: 73px;
+	background: url(../images/icon_index.png) no-repeat 31px 35px;
+	position: relative;
+
 }
+.topnav .nav .more:hover{
+	background-color: rgba(0,0,0,.1);
+}
+.topnav .nav .more ul{
+	display: none;
+	position: absolute;
+	top: 73px;
+	left: 0;
+	width: 120px;
+	background-color: #fff;
+	/*border: 1px solid #cccccc;*/
+	padding: 20px;
+	z-index: 100;
+}
+.topnav .nav .more:hover ul{
+	display: block;
+}
+.topnav .nav .more ul li{
+	padding: 10px 0;
+}
+.topnav .nav .more ul li a{
+	color: #9a9a9a;
+}
+/*.topnav form{*/
+	/*margin-left: 45px;*/
+/*}*/
 .topnav form,
 .swiper-container form{
 	float: left;
@@ -88,6 +120,9 @@ body{
 	border-radius: 22px;
 	display: none;
 }
+/*.topnav form{*/
+	/*margin-left: 45px;*/
+/*}*/
 .topnav form .type,
 .swiper-container form .type{
 	position: relative;
@@ -153,12 +188,12 @@ body{
 .swiper-container form input[type="text"]{
 	float: left;
 	width: 193px;
-	border:0;
+	border:1px solid transparent;
 	color: #fff;
 	background-color: transparent;
-	height: 16px;
-	line-height: 16px;
-	margin-top: 14px;
+	height: 22px;
+	line-height: 20px;
+	margin-top: 10px;
 	padding-left: 16px;
 }
 .topnav form input[type="text"]::input-placeholder,
@@ -287,17 +322,17 @@ body{
 	float: left;
 	width: 254px;
 }
-.topnav .sign_box .sign .user .up .data h3{
+.topnav .sign_box .sign .user .up .data>a{
 	float: left;
 	width: 100%;
 	font-size: 16px;
 	height: 28px;
 	line-height: 28px;
 }
-.topnav .sign_box .sign .user .up .data h3 span:first-child{
+.topnav .sign_box .sign .user .up .data>a span:first-child{
 	margin-right: 10px;
 }
-.topnav .sign_box .sign .user .up .data h3 span:last-child{
+.topnav .sign_box .sign .user .up .data>a span:last-child{
 	color: #7b7b7b;
 }
 .topnav .sign_box .sign .user .up .data p{
@@ -319,7 +354,7 @@ body{
 	color: #8f8f8f;
 	margin: 0 5px;
 }
-.topnav .sign_box .sign .user .up .data a{
+.topnav .sign_box .sign .user .up .data div a{
 	margin-top: 4px;
 	width: 172px;
 	height: 36px;
@@ -371,8 +406,13 @@ body{
 		padding: 0 15px;
 		font-size: 16px;
 	}
+	/*.topnav .nav .more{*/
+	/*margin: 21px 30px 0 14px;*/
+	/*}*/
 	.topnav .nav .more{
-		margin: 21px 30px 0 14px;
+		padding: 0 15px;
+		width: 60px;
+		background: url(../images/icon_index.png) no-repeat 16px 35px;
 	}
 	.topnav form .type,
 	.swiper-container form .type{

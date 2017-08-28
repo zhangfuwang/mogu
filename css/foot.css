@@ -68,6 +68,9 @@
 	color: #868686;
 	line-height: 22px;
 }
+.foot .down .left p img{
+	vertical-align: middle;
+}
 .foot .down .right{
 	float: right;
 	padding: 9px 22px;
@@ -80,11 +83,24 @@
 	background: url(../images/icon_index.png) no-repeat;
 }
 .foot .down .right a:nth-child(1){
-	background-position: -119px -118px;
+	background-position: -180px -117px;
+	position: relative;
+}
+.foot .down .right a:nth-child(1) div{
+	display: none;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: -120px;
+	left: -45px;
+}
+.foot .down .right a:nth-child(1):hover div{
+	display: block;
+}
+.foot .down .right a:nth-child(1) div img{
+	width: 100%;
 }
 .foot .down .right a:nth-child(2){
-	background-position: -180px -117px;
-}
-.foot .down .right a:nth-child(3){
+
 	background-position: -240px -118px;
 }

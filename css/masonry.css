@@ -154,14 +154,14 @@
 	height: 16px;
 	color: #868686;
 }
-.masonry_box .cnt .item ul li .btm span:nth-child(2) i,
+.masonry_box .cnt .item ul li .btm span:nth-child(2) a,
 .masonry_box .cnt .item ul li .btm span:nth-child(3) i{
 	float: left;
 	width: 25px;
 	height: 16px;
 	background: url(../images/icon_index.png) no-repeat;
 }
-.masonry_box .cnt .item ul li .btm span:nth-child(2) i{
+.masonry_box .cnt .item ul li .btm span:nth-child(2) a{
 	background-position: -60px -120px;
 }
 .masonry_box .cnt .item ul li .btm span:nth-child(3) i{

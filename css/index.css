@@ -112,7 +112,7 @@
 .advertise{
 	padding: 85px 5px;
 }
-.advertise a{
+.advertise>div{
 	float: left;
 	margin: 0 15px;
 	width: 330px;
@@ -123,25 +123,28 @@
 	-moz-box-shadow: 0 0 35px rgba(4,0,0,0.1);
 	-webkit-box-shadow: 0 0 35px rgba(4,0,0,0.1);
 }
-.advertise a img{
+.advertise>div img{
 	float: left;
 	width: 100px;
 	height: 100px;
 	margin: 18px 0;
 }
-.advertise a div{
+.advertise>div div{
 	float: left;
 	width: 228px;
 	padding-top:30px;
 }
-.advertise a div h3{
+.advertise>div div h3{
 	font-size: 20px;
 	line-height: 30px;
 }
-.advertise a div p{
+.advertise>div div p a{
 	font-size: 16px;
 	color: #868686;
 	line-height: 26px;
+}
+.advertise>div div p a:hover{
+	color: #0e0e0e;
 }
 @media screen and (max-width: 1600px) {
 	.swiper-container{
@@ -177,7 +180,7 @@
 	.advertise{
 		padding: 65px 0;
 	}
-	.advertise a{
+	.advertise>div{
 		width: 280px;
 		height: 132px;
 		margin: 0 10px;
@@ -185,20 +188,20 @@
     	-moz-box-shadow: 0 0 20px rgba(4,0,0,0.1);
     	-webkit-box-shadow: 0 0 20px rgba(4,0,0,0.1);
 	}
-	.advertise a img{
+	.advertise>div img{
 		width: 80px;
 		height: 80px;
 		margin: 25px 0;
 	}
-	.advertise a div{
+	.advertise>div div{
 		width: 198px;
 		padding-top: 25px;
 	}
-	.advertise a div h3 {
+	.advertise>div div h3 {
 	    font-size: 18px;
 	    line-height: 28px;
 	}
-	.advertise a div p {
+	.advertise>div div p a{
 	    font-size: 14px;
 	    line-height: 24px;
 	}

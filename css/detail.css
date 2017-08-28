@@ -217,7 +217,7 @@ section{
     line-height: 40px;
     color: #000;
 }
-.content-right-list3>div:nth-child(3)>div a{
+.content-right-list3>div:nth-child(3)>div div a{
     display: inline-block;
     font-size: 14px;
     line-height: 28px;
@@ -226,6 +226,10 @@ section{
     color: #878787;
     margin-bottom: 6px;
 }
+.content-right-list3>div:nth-child(3)>div div a:hover{
+    color: #dd5952;
+    border-color: #dd5952;
+}
 .content-right-list3>div:nth-child(3) hr{
     border: 1px solid #ededed;
 }
@@ -233,7 +237,7 @@ section{
     font-size: 14px;
     line-height: 40px;
 }
-.content-right-list3>div:nth-child(3) p b{
+.content-right-list3>div:nth-child(3) p a{
     width: 25px;
     height: 25px;
     color: #000;
@@ -245,16 +249,16 @@ section{
     background-repeat: no-repeat;
     background-position: center;
 }
-.content-right-list3>div:nth-child(3) p b:nth-child(1){
+.content-right-list3>div:nth-child(3) p a:nth-child(1){
     background-image: url("../images/icon_03.jpg") ;
 }
-.content-right-list3>div:nth-child(3) p b:nth-child(2){
+.content-right-list3>div:nth-child(3) p a:nth-child(2){
     background-image: url("../images/icon_05.jpg");
 }
-.content-right-list3>div:nth-child(3) p b:nth-child(3){
+.content-right-list3>div:nth-child(3) p a:nth-child(3){
     background-image: url("../images/icon_07.jpg");
 }
-.content-right-list3>div:nth-child(3) p b:nth-child(4){
+.content-right-list3>div:nth-child(3) p a:nth-child(4){
     background-image: url("../images/icon_09.png");
 }
 

@@ -8,3 +8,6 @@ $(document).ready(function(){
         resizeable: true
     });
 })
+$(".sort ul li").click(function(){
+        $(this).addClass("active").siblings(".active").removeClass("active");
+})
